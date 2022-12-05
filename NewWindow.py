@@ -7,6 +7,7 @@ root.title('Tkinter 5 Hours Coures')
 root.iconbitmap('C:\Python Projects\images\miecze.ico')
 
 def open():
+    """Define function what open new window"""
     global my_image
     top = Toplevel()
     top.title('Tkinter 5 Hours Coures, TopLevel')
